@@ -1,0 +1,59 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 3.5%;
+    border-bottom: 1px solid #CCC;
+    gap: 2%;
+    .logo {
+        width: 15%;
+    }
+    .menu__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 85%;
+        // gap: 9%;
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 45%;
+            align-items: center;
+            gap: 9%;
+            flex-wrap: nowrap;
+            .nav__item {
+                line-height: 20px;
+                .item-link {
+                    display: block;
+                    color: #000;
+                    font-size: .9rem;
+                    white-space: nowrap;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .actions-entry{
+            display: flex;
+            gap: 2%;
+            .button {
+                white-space: nowrap;
+                width: 120px;
+                line-height: 45px;
+                border: 1px solid $additional-color;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .button_more {
+                color: $main-color;
+                background-color: $accent-color;
+                border: none;
+            }
+        }
+    }
+}

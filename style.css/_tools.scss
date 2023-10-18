@@ -1,0 +1,20 @@
+$main-color: #fff;
+$accent-color: #FF6336;
+$special-color: #FF9C7D;
+$additional-color: rgba(0, 0, 0, 0.50);
+$dark-color: #000;
+
+.button {
+    white-space: nowrap;
+    width: 120px;
+    line-height: 45px;
+    border: 1px solid $additional-color;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.button_more {
+    color: $main-color;
+    background-color: $accent-color;
+    border: none;
+}
