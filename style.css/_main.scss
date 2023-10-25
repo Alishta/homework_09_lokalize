@@ -74,6 +74,24 @@
                 width: 100%;
             }
         }
+        .code__container {
+            width: 100%;
+            background-color: #FFF8E4;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 119px 4% 158px;
+            // height: 100%;
+            .container__img {
+                width: 92%;
+                background-color: #fff;
+                padding: 37px;
+            }
+            .code__text {
+                padding-top: 10px;
+            }
+        }
     }
     .main-features {
         width: 100%;

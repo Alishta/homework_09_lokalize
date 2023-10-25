@@ -180,6 +180,23 @@
 .main .wrap-container .main__container .container__img img {
   width: 100%;
 }
+.main .wrap-container .code__container {
+  width: 100%;
+  background-color: #FFF8E4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 119px 4% 158px;
+}
+.main .wrap-container .code__container .container__img {
+  width: 92%;
+  background-color: #fff;
+  padding: 37px;
+}
+.main .wrap-container .code__container .code__text {
+  padding-top: 10px;
+}
 .main .main-features {
   width: 100%;
   margin: 150px 0 93px;
@@ -499,6 +516,27 @@
   line-height: 15px;
 }
 
+@font-face {
+  font-family: "Graphik";
+  src: url("../fonts/Graphik-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("../fonts/Graphik-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("../fonts/Graphik-Semibold.woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -509,6 +547,7 @@
 
 html {
   font-size: 16px;
+  font-family: "Graphik", Arial, Helvetica, sans-serif;
 }
 
 ul {
