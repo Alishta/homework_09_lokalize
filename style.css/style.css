@@ -102,6 +102,7 @@
 }
 .header .header__container .header__text {
   font-size: 1.5rem;
+  line-height: 35px;
   padding: 51px 5% 51px 0;
 }
 .header .header__container .actions-entry {
@@ -181,10 +182,12 @@
 .main .wrap-container .optimization .optimization__block .optimization__heading {
   width: 80%;
   font-size: 3.125rem;
+  font-weight: 600;
 }
 .main .wrap-container .optimization .optimization__block .optimization__text {
   width: 80%;
   font-size: 1.25rem;
+  line-height: 30px;
 }
 .main .wrap-container .optimization .optimization__block .optimization__text .optimization__text--mod {
   text-decoration: underline;
@@ -262,6 +265,9 @@
   font-weight: 400;
   line-height: 25px;
 }
+.main .features .features__list .features__item .features__text .features__text--mod {
+  text-decoration: underline;
+}
 .main .team {
   width: 90%;
   margin: 0 auto;
@@ -298,6 +304,9 @@
   width: 93%;
   font-size: 1.25rem;
   padding-bottom: 25px;
+}
+.main .team .team__list .team__item .team__text .team__text--mod {
+  text-decoration: underline;
 }
 .main .team .team__list .team__item .team__link {
   color: #000;
