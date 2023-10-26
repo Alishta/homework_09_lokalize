@@ -282,7 +282,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 .main .team .team__list .team__item .team__img {
   width: 40%;
@@ -292,11 +291,13 @@
   font-size: 1.875rem;
   font-weight: 600;
   line-height: 40px;
+  padding-top: 20px;
   padding-bottom: 34px;
 }
 .main .team .team__list .team__item .team__text {
   width: 93%;
   font-size: 1.25rem;
+  padding-bottom: 25px;
 }
 .main .team .team__list .team__item .team__link {
   color: #000;
