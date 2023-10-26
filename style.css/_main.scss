@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    .main__section {
+    .companies {
         // width: 100%;
         background-color: $special-color;
         padding: 98px 5% 94px 5%;
@@ -11,14 +11,14 @@
         justify-content: space-around;
         align-items: center;
         gap: 70px;
-        .main__header {
+        .companies__header {
             width: 55%;
             text-align: center;
             font-size: 3.125rem;
             font-weight: 600;
             line-height: 60px;
         }
-        .section__list {
+        .companies__list {
             width: 100%;
             display: flex;
             flex-direction: row;
@@ -35,12 +35,12 @@
         gap: 250px;
         // justify-content: space-between;
         // align-items: center;
-        .main__container {
+        .optimization{
             display: flex;
             flex-direction: row;
             // justify-content: center;
             // align-items: center;
-            .main__text {
+            .optimization__block {
                 width: 100%;
                 display: flex;
                 flex-direction: column;
@@ -50,32 +50,32 @@
                 &:nth-child(2n) {
                     padding-left: 9%;
                 }
-                .container__header {
+                .optimization__heading {
                     width: 80%;
                     font-size: 3.125rem;
                 }
-                .container__text {
+                .optimization__text {
                     width: 80%;
                     font-size: 1.25rem;
-                    .container__text--mod {
+                    .optimization__text--mod {
                         text-decoration: underline;
                     }
                 }
-                .main__link {
+                .optimization__link {
                     color: $dark-color;
                     font-weight: 600;
                     font-size: 1.25rem;
                 }
             }
-            .container__img {
+            .optimization__img {
                 width: 100%;
             }
-            .container__img img {
+            .optimization__img img {
                 width: 100%;
             }
         }
         .code__container {
-            width: 100%;
+            width: 85%;
             background-color: #FFF8E4;
             display: flex;
             flex-direction: column;
@@ -83,8 +83,8 @@
             align-items: center;
             padding: 119px 4% 158px;
             // height: 100%;
-            .container__img {
-                width: 92%;
+            .container__img img {
+                width: 100%;
                 background-color: #fff;
                 padding: 37px;
             }
@@ -93,11 +93,11 @@
             }
         }
     }
-    .main-features {
+    .features {
         width: 100%;
         margin: 150px 0 93px;
         background-color: #FFF8E4;
-        .main-features__header {
+        .features__header {
             margin: 120px 0 58px;
             text-align: center;
             font-size: 3.125rem;
@@ -105,7 +105,7 @@
             line-height: 60px;
             color: $dark-color;
         }
-        .main-features__list {
+        .features__list {
             width: 90%;
             margin: 0 auto;
             display: flex;
@@ -113,7 +113,7 @@
             justify-content: space-around;
             flex-wrap: wrap;
             gap: 8.5%;
-            .main-features__item {
+            .features__item {
                 width: 25%;
                 display: flex;
                 flex-direction: column;
@@ -121,15 +121,15 @@
                 align-items: center;
                 gap: 20px;
                 margin-bottom: 57px;
-                .main-features__img {
+                .features__img {
                     width: 48%;
                 }
-                .item-heading {
+                .features__title {
                     font-size: 1.5rem;
                     font-weight: 600;
                     line-height: 35px;
                 }
-                .item-text {
+                .features__text {
                     text-align: center;
                     font-size: 1,125rem;
                     font-weight: 400;
@@ -138,11 +138,11 @@
             }
         }
     }
-    .main-team {
+    .team {
         width: 90%;
         margin: 0 auto;
         margin-bottom: 150px;
-        .main-team__heading {
+        .team__heading {
             text-align: center;
             margin-bottom: 25px;
             font-size: 3.125rem;
@@ -154,32 +154,32 @@
         //     flex-direction: row;
         //     justify-content: space-between;
         // }
-        .main-team__list {
+        .team__list {
             display: flex;
             flex-direction: row;
-            .main-team__item {
+            .team__item {
                 width: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 // position: relative;
                 // gap: 50px;
-                .main-team__img {
+                .team__img {
                     // position: absolute;
                     width: 40%;
                     height: 201px;
                 }
-                .item-heading {
+                .team__title {
                     font-size: 1.875rem;
                     font-weight: 600;
                     line-height: 40px;
                     padding-bottom: 34px;
                 }
-                .item-text {
+                .team__text {
                     width: 93%;
                     font-size: 1.25rem;
                 }
-                .item-link {
+                .team__link {
                     color: $dark-color;
                     text-decoration: underline;
                     font-size: 1.25rem;
@@ -197,22 +197,22 @@
             width: 75%;
             display: flex;
             flex-direction: column;
-            .blockquote {
+            .review__blockquote {
                 font-size: 1.875rem;
                 line-height: 40px;
                 padding-bottom: 23px;
             }
-            .cite {
+            .review__cite {
                 font-size: .9rem;
                 font-style: normal;
                 line-height: 25px;
             }
-            .review-text__img {
+            .review__logo {
                 width: 9%;
             }
         }
         .review__img {
-            width: 20%;
+            width: 24%;
         }
     }
     .sides {
@@ -258,10 +258,10 @@
                 .rating {
                     width: 100%;
                 }
-                .item-logo {
+                .block__logo {
                     width: 100px;
                 }
-                .item-text {
+                .block__text {
                     font-size: .9rem;
                     line-height: 25px;
                     letter-spacing: 0.75px;
