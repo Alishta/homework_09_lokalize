@@ -6,7 +6,7 @@
     margin-top: 97px;
     margin-bottom: 137px;
     .header__container {
-        width: 70%;
+        width: 42%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -27,7 +27,10 @@
             }
         }
     }
-    .header__img img{
-        width: 100%;
+    .header__img {
+        width: 58%;
+        img {
+           width: 100%;
+       }
     }
 }

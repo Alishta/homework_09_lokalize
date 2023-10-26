@@ -149,6 +149,11 @@
             font-weight: 600;
             line-height: 60px;
         }
+        // .main-team__img-wrap {
+        //     display: flex;
+        //     flex-direction: row;
+        //     justify-content: space-between;
+        // }
         .main-team__list {
             display: flex;
             flex-direction: row;
@@ -156,15 +161,19 @@
                 width: 100%;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-around;
+                justify-content: space-between;
+                // position: relative;
                 // gap: 50px;
                 .main-team__img {
+                    // position: absolute;
                     width: 40%;
+                    height: 201px;
                 }
                 .item-heading {
                     font-size: 1.875rem;
                     font-weight: 600;
                     line-height: 40px;
+                    padding-bottom: 34px;
                 }
                 .item-text {
                     width: 93%;
@@ -217,6 +226,7 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            width: 35%;
             gap: 15%;
             // border-left: 1px solid #000;
             &:first-child {
@@ -232,7 +242,7 @@
                 line-height: 50px;
             }
             .block-item-wrap {
-                // width: 50%;
+                // width: 45%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
@@ -243,8 +253,11 @@
                 &:first-child {
                     padding-left: 15%;
                     border-left: 1px solid #000;
+                    // width: 45%;
                 }
-                .rating,
+                .rating {
+                    width: 100%;
+                }
                 .item-logo {
                     width: 100px;
                 }
@@ -253,6 +266,7 @@
                     line-height: 25px;
                     letter-spacing: 0.75px;
                     text-transform: uppercase;
+                    white-space: nowrap;
                 }
             }
         }
