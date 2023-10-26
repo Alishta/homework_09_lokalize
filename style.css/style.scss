@@ -29,3 +29,35 @@ a {
 body {
     font-size: 1rem;
 }
+
+.actions-entry {
+    display: flex;
+    gap: 2%;
+    .login__link {
+        white-space: nowrap;
+        width: 120px;
+        line-height: 45px;
+        text-align: center;
+        font-weight: 600;
+        color: #000;
+        border: 1px solid $additional-color;
+    }
+    .try__link {
+        width: 120px;
+        line-height: 45px;
+        text-align: center;
+        font-weight: 600;
+        color: $main-color;
+        background-color: $accent-color;
+        border: none;
+        &:hover {
+            background-color: lighten($color: $accent-color, $amount: 8%);
+        }
+    }
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    box-shadow: 2px 2px 5px $dark-color;
+}

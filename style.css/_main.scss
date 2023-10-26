@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     .companies {
-        // width: 100%;
         background-color: $companies-color;
         padding: 98px 5% 94px 5%;
         display: flex;
@@ -33,13 +32,9 @@
         flex-direction: column;
         margin-top: 100px;
         gap: 250px;
-        // justify-content: space-between;
-        // align-items: center;
         .optimization{
             display: flex;
             flex-direction: row;
-            // justify-content: center;
-            // align-items: center;
             .optimization__block {
                 width: 100%;
                 display: flex;
@@ -67,6 +62,9 @@
                     color: $dark-color;
                     font-weight: 600;
                     font-size: 1.25rem;
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
             .optimization__img {
@@ -84,7 +82,6 @@
             justify-content: center;
             align-items: center;
             padding: 119px 4% 158px;
-            // height: 100%;
             .container__img img {
                 width: 100%;
                 background-color: $main-color;
@@ -221,7 +218,6 @@
         padding: 69px 5% 80px;
         display: flex;
         flex-direction: row;
-        // justify-content: space-between;
         gap: 10%;
         .sides__block {
             display: flex;
@@ -229,7 +225,6 @@
             justify-content: space-between;
             width: 35%;
             gap: 15%;
-            // border-left: 1px solid #000;
             &:first-child {
                 width: 60%;
             }
@@ -237,24 +232,18 @@
                 width: 30%;
             }
             .sides__text {
-                // width: 35%;
                 font-size: 2.2rem;
                 font-weight: 600;
                 line-height: 50px;
             }
             .block-item-wrap {
-                // width: 45%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
                 gap: 20px;
-                // .item-logo {
-                //     width: 100%;
-                // }
                 &:first-child {
                     padding-left: 15%;
                     border-left: 1px solid #000;
-                    // width: 45%;
                 }
                 .rating {
                     width: 100%;
@@ -303,6 +292,9 @@
             color: $main-color;
             background-color: $accent-color;
             border: none;
+            &:hover {
+                background-color: lighten($accent-color, $amount: 8%);
+            }
         }
     }
     .preview {
@@ -333,6 +325,9 @@
             font-weight: 600;
             line-height: 60px;
             padding: 0 40px;
+            &:hover {
+                background-color: lighten($dark-color, $amount: 5%);
+            }
         }
     }
 }

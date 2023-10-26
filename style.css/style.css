@@ -1,45 +1,3 @@
-.actions-entry {
-  display: flex;
-  gap: 2%;
-}
-.actions-entry .login__link {
-  white-space: nowrap;
-  width: 120px;
-  line-height: 45px;
-  text-align: center;
-  font-weight: 600;
-  color: #000;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-}
-.actions-entry .login__link:hover {
-  cursor: pointer;
-}
-.actions-entry .try__link {
-  width: 120px;
-  line-height: 45px;
-  text-align: center;
-  font-weight: 600;
-  color: #fff;
-  background-color: #FF6336;
-  border: none;
-}
-
-.button {
-  white-space: nowrap;
-  width: 120px;
-  line-height: 45px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-}
-.button:hover {
-  cursor: pointer;
-}
-
-.button_more {
-  color: #fff;
-  background-color: #FF6336;
-  border: none;
-}
-
 .menu {
   display: flex;
   flex-direction: row;
@@ -106,19 +64,17 @@
   padding: 51px 5% 51px 0;
 }
 .header .header__container .actions-entry {
-  display: flex;
-  gap: 2%;
   padding-bottom: 25px;
 }
 .header .header__container .actions-entry .try__link,
 .header .header__container .actions-entry .login__link {
   line-height: 60px;
 }
-.header .header__container .link {
+.header .header__container .link--spec {
   font-size: 0.9rem;
   color: #000;
 }
-.header .header__container .link:hover {
+.header .header__container .link--spec:hover {
   text-decoration: underline;
 }
 .header .header__img {
@@ -196,6 +152,9 @@
   color: #000;
   font-weight: 600;
   font-size: 1.25rem;
+}
+.main .wrap-container .optimization .optimization__block .optimization__link:hover {
+  text-decoration: underline;
 }
 .main .wrap-container .optimization .optimization__img {
   width: 100%;
@@ -422,6 +381,9 @@
   background-color: #FF6336;
   border: none;
 }
+.main .excerpt .excerpt__link:hover {
+  background-color: #ff835f;
+}
 .main .preview {
   background-color: #FF9C7D;
   padding: 119px 0 161px;
@@ -451,6 +413,9 @@
   font-weight: 600;
   line-height: 60px;
   padding: 0 40px;
+}
+.main .preview .preview__link:hover {
+  background-color: #0d0d0d;
 }
 
 .footer {
@@ -603,4 +568,36 @@ a {
 
 body {
   font-size: 1rem;
+}
+
+.actions-entry {
+  display: flex;
+  gap: 2%;
+}
+.actions-entry .login__link {
+  white-space: nowrap;
+  width: 120px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.actions-entry .try__link {
+  width: 120px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  background-color: #FF6336;
+  border: none;
+}
+.actions-entry .try__link:hover {
+  background-color: #ff835f;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  box-shadow: 2px 2px 5px #000;
 }/*# sourceMappingURL=style.css.map */

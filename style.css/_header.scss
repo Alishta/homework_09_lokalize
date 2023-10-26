@@ -21,15 +21,13 @@
             padding: 51px 5% 51px 0;
         }
         .actions-entry {
-            display: flex;
-            gap: 2%;
             padding-bottom: 25px;
             .try__link,
             .login__link {
                 line-height: 60px;
             }
         }
-        .link {
+        .link--spec {
             font-size: .9rem;
             color: $dark-color;
             &:hover {
