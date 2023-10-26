@@ -1,3 +1,29 @@
+.actions-entry {
+  display: flex;
+  gap: 2%;
+}
+.actions-entry .login__link {
+  white-space: nowrap;
+  width: 120px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.actions-entry .login__link:hover {
+  cursor: pointer;
+}
+.actions-entry .try__link {
+  width: 120px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  background-color: #FF6336;
+  border: none;
+}
+
 .button {
   white-space: nowrap;
   width: 120px;
@@ -54,24 +80,6 @@
 .menu .menu__container .nav .nav__item .nav__link:hover {
   text-decoration: underline;
 }
-.menu .menu__container .menu__buttons {
-  display: flex;
-  gap: 2%;
-}
-.menu .menu__container .menu__buttons .button {
-  white-space: nowrap;
-  width: 120px;
-  line-height: 45px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-}
-.menu .menu__container .menu__buttons .button:hover {
-  cursor: pointer;
-}
-.menu .menu__container .menu__buttons .button-more {
-  color: #fff;
-  background-color: #FF6336;
-  border: none;
-}
 
 .header {
   width: 89.5%;
@@ -92,9 +100,18 @@
   font-weight: 600;
   line-height: 70px;
 }
+.header .header__container .header__text {
+  font-size: 1.5rem;
+  padding: 51px 5% 51px 0;
+}
 .header .header__container .actions-entry {
   display: flex;
-  gap: 1%;
+  gap: 2%;
+  padding-bottom: 25px;
+}
+.header .header__container .actions-entry .try__link,
+.header .header__container .actions-entry .login__link {
+  line-height: 60px;
 }
 .header .header__container .link {
   font-size: 0.9rem;
@@ -385,9 +402,15 @@
   display: block;
   margin: 25px 0 32px;
 }
-.main .excerpt .button_more {
-  line-height: 45px;
+.main .excerpt .excerpt__link {
+  display: block;
   padding: 0 20px;
+  line-height: 60px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  background-color: #FF6336;
+  border: none;
 }
 .main .preview {
   background-color: #FF9C7D;
@@ -408,7 +431,8 @@
   font-size: 1.25rem;
   line-height: 30px;
 }
-.main .preview .preview__button {
+.main .preview .preview__link {
+  display: block;
   margin-top: 54px;
   background-color: #000;
   color: #fff;

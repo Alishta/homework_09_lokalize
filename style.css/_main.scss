@@ -293,9 +293,15 @@
             display: block;
             margin: 25px 0 32px;
         }
-        .button_more {
-            line-height: 45px;
+        .excerpt__link {
+            display: block;
             padding: 0 20px;
+            line-height: 60px;
+            text-align: center;
+            font-weight: 600;
+            color: $main-color;
+            background-color: $accent-color;
+            border: none;
         }
     }
     .preview {
@@ -316,7 +322,8 @@
             font-size: 1.25rem;
             line-height: 30px;
         }
-        .preview__button {
+        .preview__link {
+            display: block;
             margin-top: 54px;
             background-color: $dark-color;
             color: $main-color;

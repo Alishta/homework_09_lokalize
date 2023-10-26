@@ -4,6 +4,33 @@ $special-color: #FF9C7D;
 $additional-color: rgba(0, 0, 0, 0.50);
 $dark-color: #000;
 
+.actions-entry {
+    display: flex;
+    gap: 2%;
+    .login__link {
+        white-space: nowrap;
+        width: 120px;
+        line-height: 45px;
+        text-align: center;
+        font-weight: 600;
+        color: #000;
+        border: 1px solid $additional-color;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .try__link {
+        width: 120px;
+        line-height: 45px;
+        text-align: center;
+        font-weight: 600;
+        color: $main-color;
+        background-color: $accent-color;
+        border: none;
+    }
+}
+
+
 .button {
     white-space: nowrap;
     width: 120px;
