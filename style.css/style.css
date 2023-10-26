@@ -172,7 +172,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   gap: 30px;
 }
 .main .wrap-container .optimization .optimization__block:nth-child(2n) {
@@ -258,7 +258,7 @@
 }
 .main .features .features__list .features__item .features__text {
   text-align: center;
-  font-size: 1, 125rem;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 25px;
 }

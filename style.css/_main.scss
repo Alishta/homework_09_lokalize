@@ -4,7 +4,7 @@
     flex-direction: column;
     .companies {
         // width: 100%;
-        background-color: $special-color;
+        background-color: $companies-color;
         padding: 98px 5% 94px 5%;
         display: flex;
         flex-direction: column;
@@ -45,7 +45,7 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                align-items: start;
+                align-items: flex-start;
                 gap: 30px;
                 &:nth-child(2n) {
                     padding-left: 9%;
@@ -76,7 +76,7 @@
         }
         .code__container {
             width: 85%;
-            background-color: #FFF8E4;
+            background-color: $feature-color;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -85,7 +85,7 @@
             // height: 100%;
             .container__img img {
                 width: 100%;
-                background-color: #fff;
+                background-color: $main-color;
                 padding: 37px;
             }
             .code__text {
@@ -96,7 +96,7 @@
     .features {
         width: 100%;
         margin: 150px 0 93px;
-        background-color: #FFF8E4;
+        background-color: $feature-color;
         .features__header {
             margin: 120px 0 58px;
             text-align: center;
@@ -131,7 +131,7 @@
                 }
                 .features__text {
                     text-align: center;
-                    font-size: 1,125rem;
+                    font-size: 1.125rem;
                     font-weight: 400;
                     line-height: 25px;
                 }
@@ -188,7 +188,7 @@
         }
     }
     .review {
-        background-color: #C9E8F2;
+        background-color: $review-color;
         padding: 63px 5% 105px;
         display: flex;
         flex-direction: row;
@@ -216,7 +216,7 @@
         }
     }
     .sides {
-        background-color: #DABC98;
+        background-color: $sides-color;
         padding: 69px 5% 80px;
         display: flex;
         flex-direction: row;
@@ -305,7 +305,7 @@
         }
     }
     .preview {
-        background-color: #FF9C7D;
+        background-color: $companies-color;
         padding: 119px 0 161px;
         display: flex;
         flex-direction: column;
