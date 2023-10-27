@@ -145,9 +145,47 @@
                 </div>
             </div>
             <div class="optimization">
-                <div class="code__container">
-                    <div class="container__img">
-                        <img src="imgs/code.svg" alt="web technologies" class="code__img">
+                <div class="code">
+                    <div class="code__container">
+                        <p class="code__line">
+                            <span class="code__var">$client</span>
+                            <span class="code__symbl">=</span>
+                            <span class="code__element">new</span>
+                            <span class="code__way">\Lokalise\LokaliseApiClient</span>
+                            <span class="code__bracket"> ( </span>
+                            <span class="code__var">$token</span>
+                            <span class="code__bracket">)</span>
+                            <span class="code__symbl">;</span>
+                        </p>
+                        <p class="code__line">
+                            <span class="code__var">$response</span>
+                            <span class="code__symbl">=</span>
+                            <span class="code__var">$client</span>
+                            <span class="code__symbl">-></span>
+                            <span class="code__link">files</span>
+                            <span class="code__symbl">-></span>
+                            <span class="code__link">download</span>
+                            <span class="code__bracket"> ( </span>
+                        </p>
+                        <p class="code__line">
+                            <span class="code__var code__indent">$projectId</span>
+                            <span class="code__symbl">,</span>
+                        </p>
+                        <p class="code__line">
+                            <span class="code__bracket code__indent">[</span>
+                        </p>
+                        <p class="code__line">
+                            <span class="code__string code__indent--spec">'format'</span>
+                            <span class="code__symbl">=</span>
+                            <span class="code__string">'json'</span>
+                            <span class="code__symbl">,</span>
+                        </p>
+                        <span class="code__bracket code__indent">]</span>
+                        <p class="code__line">
+                            <span class="code__bracket">)</span>
+                            <span class="code__symbl">;</span>
+                        </p>
+
                     </div>
                     <p class="code__text">php</p>
                 </div>

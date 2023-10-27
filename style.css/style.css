@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto&display=swap");
 .menu {
   display: flex;
   flex-direction: row;
@@ -88,6 +89,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  font-family: "Graphik";
 }
 .main .companies {
   background-color: #FF9C7D;
@@ -162,19 +164,57 @@
 .main .wrap-container .optimization .optimization__img img {
   width: 100%;
 }
-.main .wrap-container .code__container {
+.main .wrap-container .code {
   width: 85%;
   background-color: #FFF8E4;
   display: flex;
   flex-direction: column;
   padding: 119px 4% 158px;
 }
-.main .wrap-container .code__container .container__img img {
-  width: 100%;
+.main .wrap-container .code .code__container {
+  padding: 37px 5% 23px;
   background-color: #fff;
-  padding: 37px;
+  font-size: 0.875rem;
+  line-height: 30px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
-.main .wrap-container .code__container .code__text {
+.main .wrap-container .code .code__container .code__line {
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+.main .wrap-container .code .code__container .code__line:first-child {
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 1%;
+}
+.main .wrap-container .code .code__container .code__var {
+  color: #008;
+}
+.main .wrap-container .code .code__container .code__way {
+  color: #9876AA;
+}
+.main .wrap-container .code .code__container .code__symbl {
+  color: #393;
+}
+.main .wrap-container .code .code__container .code__bracket {
+  color: #090;
+}
+.main .wrap-container .code .code__container .code__link {
+  color: #004000;
+}
+.main .wrap-container .code .code__container .code__string {
+  color: #00F;
+}
+.main .wrap-container .code .code__container .code__indent {
+  display: inline-block;
+  text-indent: 25px;
+}
+.main .wrap-container .code .code__container .code__indent--spec {
+  display: inline-block;
+  text-indent: 50px;
+}
+.main .wrap-container .code .code__text {
   padding: 10px 15% 0;
 }
 .main .features {
